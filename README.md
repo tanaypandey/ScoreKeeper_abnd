@@ -1,1 +1,1 @@
-# ScoreKeepe_cricket
+# Score keeper app for cricket
