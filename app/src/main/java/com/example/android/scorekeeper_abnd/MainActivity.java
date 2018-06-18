@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         overA = overs(overA);
         displayOverA(overA);
         numberOfBalls = numberOfBalls + 1;
-        runRateA = runRate(runRateA);
+       runRateA = runRate(scoreA,numberOfBalls);
         displayRunRateA(runRateA);
     }
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         overA = overs(overA);
         displayOverA(overA);
         numberOfBalls = numberOfBalls + 1;
-        runRateA = runRate(runRateA);
+        runRateA = runRate(scoreA,numberOfBalls);
         displayRunRateA(runRateA);
     }
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         overA = overs(overA);
         displayOverA(overA);
         numberOfBalls = numberOfBalls + 1;
-        runRateA = runRate(runRateA);
+        runRateA = runRate(scoreA,numberOfBalls);
         displayRunRateA(runRateA);
     }
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         overA = overs(overA);
         displayOverA(overA);
         numberOfBalls = numberOfBalls + 1;
-        runRateA = runRate(runRateA);
+        runRateA = runRate(scoreA,numberOfBalls);
         displayRunRateA(runRateA);
     }
 
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         overB = overs(overB);
         displayOverB(overB);
         numberOfBallsB = numberOfBallsB + 1;
-        runRateB = runRate(runRateB);
+        runRateB = runRate(scoreB,numberOfBallsB);
         displayRunRateB(runRateB);
     }
 
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         overB = overs(overB);
         displayOverB(overB);
         numberOfBallsB = numberOfBallsB + 1;
-        runRateB = runRate(runRateB);
+        runRateB = runRate(scoreB,numberOfBallsB);
         displayRunRateB(runRateB);
     }
 
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         overB = overs(overB);
         displayOverB(overB);
         numberOfBallsB = numberOfBallsB + 1;
-        runRateB = runRate(runRateB);
+        runRateB = runRate(scoreB,numberOfBallsB);
         displayRunRateB(runRateB);
     }
 
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         overB = overs(overB);
         displayOverB(overB);
         numberOfBallsB = numberOfBallsB + 1;
-        runRateB = runRate(runRateB);
+        runRateB = runRate(scoreB,numberOfBallsB);
         displayRunRateB(runRateB);
     }
 
@@ -140,8 +140,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public double runRate(double runRate) {
-        runRate = (double) (scoreB / numberOfBallsB);
+    public double runRate(int score, int numberOfBalls) {
+        double runRate;
+        runRate = (double) (score * 6 / numberOfBalls );
         return runRate;
     }
 

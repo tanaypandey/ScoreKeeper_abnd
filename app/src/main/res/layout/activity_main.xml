@@ -31,7 +31,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
                 android:padding="5dp"
-                android:text="INDIA"
+                android:text="@string/team_A_name"
                 android:textSize="40sp" />
 
             <ImageView
@@ -51,7 +51,7 @@
             android:background="@drawable/rounded_corners"
             android:gravity="center_horizontal"
             android:padding="5dp"
-            android:text="0"
+            android:text="@string/zero"
             android:textSize="30sp" />
 
         <Button
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:onClick="oneScoreForTeamA"
-            android:text="+1"
+            android:text="@string/one"
             android:textSize="20sp" />
 
         <Button
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:onClick="fourScoreForTeamA"
-            android:text="+4"
+            android:text="@string/four"
             android:textSize="20sp" />
 
         <Button
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:onClick="sixScoreForTeamA"
-            android:text="+6"
+            android:text="@string/six"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -89,7 +89,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="over"
+                android:text="@string/overs"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
 
@@ -99,7 +99,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="run rate"
+                android:text="@string/run_rate"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -119,7 +119,7 @@
                 android:elevation="5dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textSize="20sp" />
 
             <TextView
@@ -132,7 +132,7 @@
                 android:elevation="5dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -147,7 +147,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:onClick="dotScoreForTeamA"
-                android:text="dot"
+                android:text="@string/dot"
                 android:textSize="20sp" />
 
             <Button
@@ -156,17 +156,18 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:onClick="outA"
-                android:text="out"
+                android:text="@string/out"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>
 
-    <view
+    <View
         android:layout_width="1dp"
         android:layout_height="470dp"
-        android:layout_gravity="center_vertical"/>
+        android:layout_gravity="center_vertical"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -193,7 +194,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
                 android:padding="5dp"
-                android:text="SA"
+                android:text="@string/team_B_name"
                 android:textSize="40sp" />
 
             <ImageView
@@ -213,7 +214,7 @@
             android:background="@drawable/rounded_corners"
             android:gravity="center_horizontal"
             android:padding="5dp"
-            android:text="0"
+            android:text="@string/zero"
             android:textSize="30sp" />
 
         <Button
@@ -221,7 +222,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:onClick="oneScoreForTeamB"
-            android:text="+1"
+            android:text="@string/one"
             android:textSize="20sp" />
 
         <Button
@@ -229,7 +230,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:onClick="fourScoreForTeamB"
-            android:text="+4"
+            android:text="@string/four"
             android:textSize="20sp" />
 
         <Button
@@ -237,7 +238,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:onClick="sixScoreForTeamB"
-            android:text="+6"
+            android:text="@string/six"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -251,7 +252,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="over"
+                android:text="@string/overs"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
 
@@ -261,7 +262,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="run rate"
+                android:text="@string/run_rate"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -281,7 +282,7 @@
                 android:elevation="5dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textSize="20sp" />
 
             <TextView
@@ -294,7 +295,7 @@
                 android:elevation="5dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="0"
+                android:text="@string/zero"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -309,7 +310,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:onClick="dotScoreForTeamB"
-                android:text="dot"
+                android:text="@string/dot"
                 android:textSize="20sp" />
 
             <Button
@@ -318,7 +319,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:onClick="outB"
-                android:text="out"
+                android:text="@string/out"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
         </LinearLayout>

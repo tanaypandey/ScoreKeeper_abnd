@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ScoreKeeper_abnd</string>
+    <string name="team_A_name">INDIA</string>
+    <string name="team_B_name">SA</string>
+    <string name="one">+1</string>
+    <string name="four">+4</string>
+    <string name="six">+6</string>
+    <string name="dot">DOT</string>
+    <string name="out">OUT</string>
+    <string name="overs">OVERS</string>
+    <string name="run_rate">RUN RATE</string>
+    <string name="zero">0</string>
 </resources>
